@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <title>Berat Karagöl'ün Şahsi Sitesi</title>
+  <meta charset="utf-8">
+  <link href="deneme.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="oyun">
+
+  <div id="gamer_side">
+    <div id="gamer_name"></div>
+    <div id="gamer_pic">
+      <div id="gpic"></div>
+    </div>
+    <div id="gamer_health">Can: <span id="g_health">1000</span></div>
+    <div id="gamer_ammo">Mermi: <span id="g_ammo">3</span></div>
+
+    <div id="butonlar">
+      <button class="buton" id="attack" onclick="saldir()">Saldır</button>
+      <button class="buton" id="defend" onclick="savun()">Savun</button>
+      <button class="buton" id="reload" onclick="mermi()">Mermi Doldur</button>
+      <button class="buton" id="heal" onclick="iyiles()">İyileş</button>
+    </div>
+  </div>
+
+  <div id="computer_side">
+    <div id="computer_name">Bilgisayar</div>
+    <div id="computer_pic">
+      <div id="cpic"></div>
+    </div>
+    <div id="computer_health">Can: <span id="c_health">1000</span></div>
+    <div id="computer_ammo">Mermi: <span id="c_ammo">3</span></div>
+  </div>
+
+  <div id="win"><span>Tebrikler! Kazandınız!!!</span></div>
+  <div id="lose"><span>Malesef Yenildiniz!</span></div>
+
+</div>
+</body>
+
+
+
+
+<script src="deneme.js"></script>
+</html>

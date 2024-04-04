@@ -1,0 +1,137 @@
+
+
+
+
+body{
+  background-color: lightcoral;
+}
+
+#oyun{
+  background-color: white;
+  width: 850px;
+  height: 580px;
+  margin: 50px auto;
+  padding: 15px;
+}
+
+#gamer_side{
+  width: 424px;
+  height: 580px;
+  float: left;
+  border-right: 1px solid black;
+}
+#gamer_name,#computer_name{
+  height: 30px;
+  font: bold 30px AkayaTelivigala;
+  text-align: center;
+}
+
+#gamer_pic{
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+  margin: auto;
+}#gpic{
+   background-image: url("resimler2/DALL·E 2023-03-01 16.52.52 - a handdrawn sketch of a warrior.png");
+   width: 250px;
+   height: 250px;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+#gamer_health,#gamer_ammo,#computer_health,#computer_ammo{
+  height: 50px;
+  font:bold 30px AkayaTelivigala;
+
+  float: left;
+  height: 60px;
+  padding: 0 10px 0 10px;
+  margin-left: 40px;
+}
+
+
+.buton{
+  float: left;
+  width: 100px;
+  height: 80px;
+  margin: 10px 20px 10px 50px;
+  font: bold 20px Monaco;
+}
+
+#butonlar{margin-left: 27px}
+#attack{
+  background-color: #ff2f2f;
+}#attack:hover{
+   background-color: white;
+   color: red;
+   border: 2px solid red;
+ }
+#defend{
+  background-color: #2727f8;
+}#defend:hover{
+   background-color: white;
+   color: blue;
+   border: 2px solid blue;
+ }
+#reload{
+  background-color: sandybrown;
+}#reload:hover{
+   background-color: white;
+   color: sandybrown;
+   border: 2px solid sandybrown;
+ }
+#heal{
+  background-color: #04d304;
+}#heal:hover{
+   background-color: white;
+   color: #04d304;
+   border: 2px solid #04d304;
+ }
+
+
+
+
+#computer_side{
+  width: 425px;
+  height: 580px;
+  float: left;
+}
+#computer_pic{
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+  margin: auto;
+}
+#cpic{
+  background-image: url("resimler2/DALL·E 2023-03-01 16.51.11 - a handdrawn sketch of a computer that is also a warrior.png");
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#win{
+  width: 850px;
+  height: 580px;
+  background-color: lightcoral;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 285px 260px;
+  display: none;
+}
+#win span{
+  font: bold 35px AkayaTelivigala;
+}
+#lose{
+  width: 850px;
+  height: 580px;
+  background-color: lightcoral;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 285px 260px;
+  display: none;
+}
+#lose span{
+  font: bold 40px AkayaTelivigala;
+}
